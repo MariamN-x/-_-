@@ -1,0 +1,49 @@
+*{
+    background-color:#020229;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    color:white;
+    border: 5px solid;  
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+#btn{
+    width:15%;
+    padding:10px;
+    font-size: 15px;
+    background-color:rgb(241, 217, 186);
+}
+label{
+    font-size: 25px;
+    margin:2%;
+}
+input {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#020229;
+    background-color: white;
+}
+.innerContainer1 .innerContainer2{
+    display: flex;
+    justify-content: center;
+}
+.innerContainer1,
+.innerContainer2,
+.buttonContainer {
+  margin-bottom: 10px; 
+}
+.result{
+    color:white;
+    font-size: 25px;
+    margin-top: 10px;  
+}
